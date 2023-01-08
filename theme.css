@@ -1,0 +1,185 @@
+@keyframes example {
+    from {transform: scale(0.5);}
+    to {transform: scale(1);}
+  }
+
+.qrcode{
+    animation: example 1s;
+    animation-play-state: paused;
+}
+
+*{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+html, body{
+    margin: 0;
+    height: 100vh;
+    text-align: center;
+    background-color: whitesmoke;
+    overflow-y: auto;
+}
+.header{
+    background-image: url(./lah.jpeg);
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 120vh;
+    margin: 0;
+    padding-top: 60vh;
+}
+.heading {
+    color: #ffffff;
+    display: block;
+    font-family: 'Caveat', cursive;
+    font-size: 6em;
+    font-weight: normal;
+    text-shadow: 0 0 10px black;
+    
+}
+.heading-subtext{
+    color: white;
+    display: block;
+    font-family: 'Caveat', cursive;
+    font-size: .6em;
+}
+.fixed-button{
+    background: grey;
+    border-radius: 1em;
+    bottom: 1em;
+    color: white;
+    font-weight: bold;
+    padding: 1em;
+    position: fixed;
+    right: 1em;
+    text-decoration: none;
+    z-index: 9999;
+}
+.fixed-button::after{
+    content: "\25BE";
+    display: block;
+    font-size: 28px;
+    line-height: 0;
+    margin-bottom: 6px;
+    margin-top: 10px;
+    text-align: center;
+}
+.fixed-button:active,
+.fixed-button:hover{
+    background: whitesmoke;
+}
+.section{
+    margin: 10px auto;
+    max-width: 600px;
+    padding: 1em;
+    background-color: rgb(219, 219, 219);
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation: example 1s;
+    animation-play-state: paused;
+}
+.sub-heading{
+    font-family: 'Caveat', cursive;
+    font-size: 3em;
+    margin-top: 2em;
+    font-size: 2em;
+}
+.sub-heading1{
+    text-transform: uppercase;
+    font-size: 2em;
+    margin-top: 2em;
+}
+.details{
+    margin: 10px ;
+}
+.date{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    flex-direction: row;
+
+}
+.day, .month, .year{
+    background-color: black;
+    padding: 10px 10px 10px 10px;
+    border-radius: 25px;
+   
+}
+.details-heading{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.fas {
+    font-size: 3em;
+    opacity: .8;
+}
+.resort-image{
+    width: 100%
+}
+img{
+    padding: -10px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color:  rgb(255, 255, 255);
+    position: fixed;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 25px;
+    width: 100%;
+    z-index: 2;
+    
+    
+}
+  
+.topnav a {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+
+    text-decoration: none;
+    align-items: center;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: grey;
+  }
+  
+  .topnav a.active {
+    background-color: white;
+    color: black;
+  }
+
+
+
+@media only screen and (max-width: 720px) {
+    .heading {
+        font-size: 4em;
+    }
+    .header{
+        background-image: url(lah.jpeg);
+        background-repeat: no-repeat;
+        background-position: 60% 10%;
+        background-attachment: scroll;
+        background-size: cover;
+        height: 120vh;
+        margin: 0;
+        width: 360px;
+        padding-top: 60vh;
+    }
+    .section{
+        margin: 10px auto;
+        max-width: 600px;
+        width: 360px;
+        background-color: whitesmoke;
+        border-radius: 25px;
+    }
+  }
+

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Kaesang and Erina's Wedding</title>
+    <link rel="stylesheet" type="text/css" href="theme.css"> 
+    <link rel="stylesheet" type="text/css" href="./icons/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> 
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Quicksand&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <audio autoplay>
+      <source src="./Westlife - Beautiful In White.mp3" type="audio/mp3">
+    </audio>
+    <div class="center">
+      <div class="topnav">
+        <a href="#home">Home</a>
+        <a href="#galeri">Galeri</a>
+        <a href="#location">Location</a>
+        <a href="#contact">Pesan</a>
+      </div>
+    </div>
+    <header class="header" id="home">
+      <h1 class="heading">
+        Kaesang & Erina
+        <span class="heading-subtext"> are getting married!</span>
+      </h1>
+    </header>
+    <a data-scroll class="fixed-button" onclick="togglePlay()" id="rsvpButton">Play Audio</a> 
+
+    <section class="section">
+      <h2 class="sub-heading">(Ar-Rum Ayat 21)</h2>
+      <p>"Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir.
+      </p>
+    </section>
+    <section class="section" id="galeri">
+      <div class="details">
+        <i class="fas fa-image"></i>
+        <h3 class="details-heading">Galeri</h3>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./lah.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./gapapa.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./ground.jpeg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+        <section class="section">
+          <div class="details">          
+              <h3 class="details-heading">Introduction</h3>     
+          <img src="iini.jpeg" alt="Workplace" usemap="#intromap" class="d-block w-100">       
+          <map name="intromap">
+            <area shape="rect" coords="20,37,250,320" alt="kaesang" href="kaesang.html">
+            <area shape="rect" coords="40,20,300,400" alt="erina" href="erina.html">  
+        </section>
+      </div>
+    
+    <section class="section" id="location">
+      <div class="details">
+        <i class="fas fa-map-marked-alt"></i>
+        <h3 class="details-heading">Location</h3>
+        <p><a rel="noopener" href="#">Hotel</a>, Bogor, Indoensia</p>
+        <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=bogor&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://formatjson.org/word-counter">Word Counter</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style>
+      </div>
+    </section>
+    <section class="section">
+      <div class="details">
+          <div class="mb-3">
+            <h2 class="sub-heading1">konfirmasi kehadiran</h2>
+            <label for="exampleInputEmail1" class="form-label">nama lengkap</label>
+            <input type="text" name="name" class="form-control w-100" id="content" aria-describedby="form-text" >
+            <div id="text" class="form-text"></div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">konformasi kehadiraan</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="checkboxYes" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              ya,saya akan hadir
+            </label>
+          </div>
+          <button type="button" id="generate" onclick="anim()" class="btn btn-primary">Konfirmasi</button>
+    </section>
+    <section class="section">
+      <div class="details">
+        <div id="qrcode" class="qrcode">
+          <img src = "https://chart.googleapis.com/chart?cht=qr&chl=Hello+World&chs=400x400&chld=L|0"  class = "qr-code img-thumbnail img-responsive" />  
+        </div>
+      </div>
+    </section>
+
+    <br>
+  </body>
+  <script src =  
+  "https://code.jquery.com/jquery-3.5.1.js">  
+</script> 
+  <script>
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.intersectionRatio > 0) {
+      entry.target.style.animationPlayState = "running";
+      observer.unobserve(entry.target);
+    }
+  });
+});
+
+const elements = document.querySelectorAll("section");
+elements.forEach(element => {
+  observer.observe(element);
+});
+    
+  function anim()
+  {
+
+    var qrc = document.getElementById("qrcode");
+    qrc.classList.add("qrcode");
+    qrc.style.animationPlayState = "running";
+
+  }
+
+
+
+var qr = document.getElementById("qrcode");
+    qr.style.opacity = 0;
+function htmlEncode(value) {  
+    return $('<div/>').text(value)  
+        .html();  
+    }  
+    $(function () {  
+    $('#generate').click(function () {        
+        let finalURL =  
+'https://chart.googleapis.com/chart?cht=qr&chl=' +  
+        "localhost/nerusin_seli/index.php?name=" + htmlEncode($('#content').val()) +  
+        '&chs=400x400&chld=L|0'   
+        $('.qr-code').attr('src', finalURL);
+        qr.style.opacity = 1;  
+    });  
+    });  
+
+    </script>
+</html>
